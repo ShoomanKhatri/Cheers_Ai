@@ -1,0 +1,56 @@
+/* Navbar.module.css */
+
+.navbar {
+    background-color: rgb(13,18,36);
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+/* position: fixed; */
+
+  }
+  
+  .logo {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .navLinks {
+    /* background-color: red; */
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .loginNavLink {
+    background-color: red;
+    color:white;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+        text-decoration: none;
+        border-radius: 8px;
+        padding: 4px 2rem;
+ 
+  }
+  
+  .navLink {
+    color: white;
+letter-spacing: 1px;
+font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+    text-decoration: none;
+
+  }
+  
+  /* Add any additional styling as needed for your design */
+  

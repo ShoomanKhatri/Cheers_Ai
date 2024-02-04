@@ -1,0 +1,179 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-height: auto;
+    background-color: rgb(13,18,36);
+    width: 100%;
+}
+
+.bodySection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* height: 100vh; */
+}
+.sloganContainer{
+    /* background-color: rebeccapurple; */
+    width: 40%;
+    padding: 2rem 4rem;
+
+}
+
+.videoWrapper{
+/* border: 0.01px solid grey;  */
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+height: 360px;
+width: 640px;
+border-radius: 9px;
+overflow: hidden;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+}
+
+.heroSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding-right:2rem ;
+    padding-left:2rem ;
+}
+
+.herosectionTitle, .herosectionsubTitle , .herosectionDescription{
+    color:white;
+}
+.sloganContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+
+.btnWrapper{
+
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+.accessBtn , .pitchBtn{
+cursor: pointer;
+border-radius: 5px;
+background-color: blueviolet;
+color: white;
+letter-spacing: 1px;
+outline: none;
+border: none;
+height: 40px;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.freeBtn{
+    background-color: blanchedalmond;
+    color: red;
+    cursor: pointer;
+    border-radius: 6px;
+    height: 40px;
+    width: 180px;
+    border: none;
+    outline: none;
+    padding: 0 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.overviewContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    justify-content: center;
+}
+
+.overviewCardContainer{
+    display: flex;
+    
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.TestiomonialContainer{
+    display: flex;
+    padding: 1rem 5rem;
+    
+}
+
+.TestimonialFirstContainer{
+    width: 50%;
+}
+.TestimonialFirstContainer p{
+    background-color: blue;
+    color: white;
+    padding: 0.5rem;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.getStartedBtn{
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    height: 44px;
+    border-radius: 5px;
+    color: white;
+}
+
+.testimonials{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.overviewHeading{
+    color: white;
+}
+.overviewTitle{
+    color: white;
+}
+.overviewDescription{
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.endSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 0rem;
+    justify-content: center;
+}
+.endSection h1{
+    color: honeydew;
+}
+.endSection p{
+    color: honeydew;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+
+.accessBtn{
+    color: white;
+    background-color: red;
+}
+
+
