@@ -14,7 +14,7 @@ const Faq = () => {
 
   return (
     <div className={styles.faqContainer}>
-      <h2 className={styles.faqHeading}>Frequently Asked Questions</h2>
+      <h1 className={styles.faqHeading}>Frequently Asked Questions</h1>
       {question.map((q, index) => (
         <div className={styles.container} key={index}>
           <div onClick={() => toggleAnswer(index)} className={styles.faqQuestionContainer}>

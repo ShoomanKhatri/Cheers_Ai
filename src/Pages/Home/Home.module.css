@@ -50,7 +50,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 10rem;
+    gap: 7rem;
     /* height: 100vh; */
 }
 .sloganContainer{
@@ -83,8 +83,15 @@ overflow: hidden;
     padding-left:2rem ;
 }
 
-.herosectionTitle, .herosectionsubTitle , .herosectionDescription{
+.herosectionTitle, .herosectionsubTitle {
     color:white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.herosectionDescription{
+    color: white;
+    letter-spacing: 1px;
 }
 .sloganContainer{
     display: flex;
@@ -100,17 +107,20 @@ overflow: hidden;
     flex-direction: row;
     gap: 5rem;
 }
-.accessBtn , .pitchBtn{
-cursor: pointer;
-border-radius: 5px;
-background-color: blueviolet;
-color: white;
-letter-spacing: 1px;
+
+.pitchBtn{
+    background-color: rgb(18,23,42);
+    width: 142px;
+    height: 59px;
+    padding-left: 1rem;
+    color: white;
+    backdrop-filter: blur(22px);
+padding-right: 1rem;
+
+    letter-spacing: 1px;
 outline: none;
 border: none;
-height: 40px;
-padding-left: 1rem;
-padding-right: 1rem;
+    cursor: pointer!;
 }
 
 .freeBtn{
@@ -141,7 +151,7 @@ padding-right: 1rem;
     justify-content: space-evenly;
     width: 100%;
     flex-direction: row;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 
@@ -153,13 +163,30 @@ padding-right: 1rem;
 
 .TestimonialFirstContainer{
     width: 50%;
+ display: flex;
+ gap: 1rem;
+ flex-direction: column;
+    padding: 0.5rem 2rem;
 }
 .TestimonialFirstContainer p{
-    background-color: blue;
+    background-color: #12172a;
     color: white;
     padding: 0.5rem;
     width: fit-content;
     border-radius: 5px;
+}
+
+.TestimonialFirstContainer h1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.TestimonialFirstContainer h3{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .getStartedBtn{
@@ -180,9 +207,7 @@ padding-right: 1rem;
     gap: 1rem;
 }
 
-.overviewHeading{
-    color: white;
-}
+
 .overviewTitle{
     color: white;
 }
@@ -202,23 +227,36 @@ padding-right: 1rem;
 }
 .endSection h1{
     color: honeydew;
+    font-size: 3rem;
+    font-weight: bold;
 }
 .endSection p{
-    color: honeydew;
+    color: grey;
+    font-weight: bold;
     font-size: 12px;
-    letter-spacing: 1px;
+    letter-spacing: 1.3px;
 }
 
 
 .accessBtn{
     color: white;
+    width: 142px;
+    height: 53px;
     background-color: red;
+    cursor: pointer;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    outline: none;
+border: none;
+padding-left: 1rem;
+padding-right: 1rem;
 }
 
 
 .overviewHeading{
     font-weight: bold;
     font-size: 3rem ;
+    color: white;
 }
 
 

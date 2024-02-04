@@ -16,18 +16,22 @@ align-items: center;
 .icon{
     height: 30px;
     width: 30px;
+    color: white;
 }
 .faqHeading{
     color: white;
+    font-size: 3rem;
+    font-weight: bold;
 }
 .faqAns{
     width: 60%;
-    color: #ffffff;
+    color: grey;
 
 }
 .faqQuestion{
     width: 100%;
     font-size: 20px;
+    color: white;
 }
 
 .container{

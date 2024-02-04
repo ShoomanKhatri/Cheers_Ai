@@ -1,9 +1,10 @@
 .Container{
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 0, 0, 0.423);
-    padding: 0.25rem 1rem;
+    background-color: rgb(18,23,42);
+    padding: 2rem 1rem;
     border-radius: 12px;
+    gap: 1rem;
 }
 
 .name{
