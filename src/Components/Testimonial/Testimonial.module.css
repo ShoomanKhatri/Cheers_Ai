@@ -1,20 +1,35 @@
-.Container{
+.Container {
     display: flex;
     flex-direction: column;
-    background-color: rgb(18,23,42);
+    background-color: rgb(18, 23, 42);
     padding: 2rem 1rem;
     border-radius: 12px;
     gap: 1rem;
 }
 
-.name{
+.name {
     letter-spacing: 1px;
     color: white;
 }
-.review{
+
+.review {
     letter-spacing: 1px;
     color: grey;
     font-size: 12px;
     width: 80%;
 }
 
+@media screen and (max-width: 768px) {
+    .Container {
+        padding: 1.5rem 1rem;
+    }
+
+    .name {
+        font-size: 16px;
+    }
+
+    .review {
+        font-size: 12px;
+        width: 100%;
+    }
+}

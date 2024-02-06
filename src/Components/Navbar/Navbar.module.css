@@ -2,54 +2,80 @@
 
 .navbar {
 
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-/* position: fixed; */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  /* position: fixed; */
 
-  }
-  
-  .logo {
-    color: white;
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
   letter-spacing: 1px;
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  
-  .navLinks {
-    /* background-color: red; */
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
-  }
-  .loginNavLink {
-    background-color: red;
-    color:white;
-    letter-spacing: 1px;
-    font-family: "Poppins", sans-serif;
-      font-weight: 300;
-      font-style: normal;
-        text-decoration: none;
-        border-radius: 8px;
-        padding: 4px 2rem;
- 
-  }
-  
-  .navLink {
-    color: white;
-letter-spacing: 1px;
-font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navLinks {
+  /* background-color: red; */
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.loginNavLink {
+  background-color: red;
+  color: white;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
-    text-decoration: none;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 4px 2rem;
+
+}
+
+.navLink {
+  color: white;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+
+}
+
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+  .navLinks {
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    text-align: center;
 
   }
-  
-  /* Add any additional styling as needed for your design */
-  
+}
+
+@media screen and (max-width: 992px) {
+  .navLinks {
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+
+  }
+}
+
+/* Add any additional styling as needed for your design */
