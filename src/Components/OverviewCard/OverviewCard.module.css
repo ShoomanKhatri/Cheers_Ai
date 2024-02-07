@@ -45,6 +45,15 @@
 
     }
 
+    .imgContainer {
+        width: auto;
+        height: auto;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 12px;
+    }
+
+
     .title {
         font-size: 20px;
 
@@ -61,6 +70,15 @@
         padding: 0.5rem;
 
     }
+
+    .imgContainer {
+        width: auto;
+        height: auto;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 12px;
+    }
+
 
     .title {
         font-size: 30px;
