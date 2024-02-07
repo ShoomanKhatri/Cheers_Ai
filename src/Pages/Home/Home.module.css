@@ -296,11 +296,12 @@
     .sloganContainer {
         width: 100%;
         text-align: center;
+        padding: 0 1rem;
     }
 
     .videoWrapper {
         width: 100%;
-
+        margin-top: 2rem;
     }
 
     .video {
@@ -326,10 +327,13 @@
     .overviewCardContainer {
         flex-direction: column;
         align-items: center;
+        gap: 2rem;
     }
 
     .TestiomonialContainer {
         flex-direction: column;
+        text-align: center;
+        align-items: center;
         padding: 1rem;
     }
 

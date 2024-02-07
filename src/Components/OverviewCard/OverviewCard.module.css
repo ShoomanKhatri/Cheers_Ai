@@ -37,22 +37,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
-    .overviewContainerCard {
-        padding: 0.5rem;
 
-    }
-
-    .title {
-        font-size: 18px;
-
-    }
-
-    .description {
-        font-size: 10px;
-
-    }
-}
 
 @media screen and (max-width: 992px) {
     .overviewContainerCard {
@@ -66,7 +51,26 @@
     }
 
     .description {
-        font-size: 13px;
+        font-size: 12px;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .overviewContainerCard {
+        padding: 0.5rem;
+
+    }
+
+    .title {
+        font-size: 30px;
+        /* !important  for overriding styles.*/
+
+    }
+
+    .description {
+        font-size: 18px;
+
 
     }
 }

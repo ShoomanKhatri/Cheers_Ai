@@ -12,4 +12,4 @@ const Testimonial = ({item}) => {
   )
 }
 
-export default Testimonial
+export default Testimonial;

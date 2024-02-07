@@ -124,6 +124,7 @@
   .footUpperPart {
     height: auto;
     flex-direction: column;
+    text-align: center;
     align-items: center;
   }
 
@@ -134,7 +135,7 @@
 
   .quickLinks p,
   .socialmediaName {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .footlowerPart {
@@ -142,15 +143,27 @@
   }
 
   .subHeading {
-    font-size: 12px;
+    font-size: 20px;
+    margin-top: 1.5rem;
+    text-align: center;
   }
 
   .copyrightIcon {
-    height: 12px;
-    width: 12px;
+    height: 14px;
+    width: 14px;
+    margin-top: 26px;
   }
 
   .copyrightDisclaimer {
-    font-size: 10px;
+    font-size: 14px;
+    margin-top: 26px;
   }
+}
+
+.thirdPart p {
+  font-size: 16px;
+}
+
+.quickLinks {
+  font-size: 16px;
 }

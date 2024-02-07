@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 768px) {
     .Container {
-        padding: 1.5rem 1rem;
+        padding-left: 1.5rem 1rem;
     }
 
     .name {

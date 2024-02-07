@@ -54,17 +54,6 @@
 
 
 /* Media query for responsive design */
-@media screen and (max-width: 768px) {
-  .navLinks {
-    width: 100%;
-  }
-
-  .navbar {
-    flex-direction: column;
-    text-align: center;
-
-  }
-}
 
 @media screen and (max-width: 992px) {
   .navLinks {
@@ -78,4 +67,14 @@
   }
 }
 
-/* Add any additional styling as needed for your design */
+@media screen and (max-width: 768px) {
+  .navLinks {
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+
+  }
+}
