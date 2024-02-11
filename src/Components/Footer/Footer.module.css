@@ -119,18 +119,22 @@
   .footerContainer {
     padding-top: 24px;
     height: auto;
+    justify-content: left;
   }
 
   .footUpperPart {
     height: auto;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
+    text-align: justify;
+    align-items: left;
+    justify-content: left;
+    margin-left: 2rem;
   }
 
   .secondPart,
   .thirdPart {
     gap: 0.5rem;
+    justify-content: left;
   }
 
   .quickLinks p,
@@ -145,7 +149,9 @@
   .subHeading {
     font-size: 20px;
     margin-top: 1.5rem;
-    text-align: center;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
   }
 
   .copyrightIcon {
@@ -158,12 +164,23 @@
     font-size: 14px;
     margin-top: 26px;
   }
-}
 
-.thirdPart p {
-  font-size: 16px;
-}
 
-.quickLinks {
-  font-size: 16px;
+  .thirdPart p {
+    font-size: 16px;
+  }
+
+  .quickLinks {
+    font-size: 16px;
+    justify-content: left;
+  }
+
+  .iconWrapper {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+  }
+
+
 }
