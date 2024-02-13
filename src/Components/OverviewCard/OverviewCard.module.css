@@ -68,6 +68,8 @@
 @media only screen and (max-width: 768px) {
     .overviewContainerCard {
         padding: 0.5rem;
+        margin-left: 5px;
+        margin-right: 5px;
 
     }
 
@@ -81,7 +83,7 @@
 
 
     .title {
-        font-size: 30px;
+        font-size: 26px;
         /* !important  for overriding styles.*/
 
     }

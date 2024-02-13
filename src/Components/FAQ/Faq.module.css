@@ -3,57 +3,64 @@
     align-items: center;
     cursor: pointer;
     justify-content: space-between;
-  }
-  
-  .faqContainer {
+}
+
+.faqContainer {
     display: flex;
     padding-top: 2rem;
     flex-direction: column;
     width: 100%;
     align-items: center;
     gap: 1rem;
-  }
-  
-  .icon {
+}
+
+.icon {
     height: 30px;
     width: 30px;
     color: white;
-  }
-  
-  .faqHeading {
+}
+
+.faqHeading {
     color: white;
     font-size: 3rem;
     font-weight: bold;
-  }
-  
-  .faqAns {
+}
+
+.faqAns {
     width: 100%;
     color: grey;
-  }
-  
-  .faqQuestion {
+}
+
+.faqQuestion {
     width: 100%;
     font-size: 20px;
     color: white;
-  }
-  
-  .container {
+}
+
+.container {
     width: 100%;
     cursor: pointer;
     color: red;
     border-radius: 12px;
     padding: 0.5rem;
-  }
-  
-  .container:hover {
+}
+
+.container:hover {
     background-color: rgba(128, 128, 128, 0.107);
     padding: 0.5rem;
-  }
-  
-  /* Media query for 768px */
-  @media (min-width: 768px) {
+}
+
+/* Media query for 768px */
+@media only screen and (max-width: 768px) {
     .container {
-      width: 60%; 
+        width: 60%;
     }
-  }
-  
+
+    .faqHeading {
+        color:white;
+        font-weight: bold;
+        text-align: center;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+}
